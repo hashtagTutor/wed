@@ -1,0 +1,38 @@
+.paper-pad-pay {
+  background-color: rgb(226, 240, 217);
+  padding-top: 8%;
+  padding-bottom: 3%;
+  padding-left: 30%;
+  padding-right: 30%;
+  height: 100vh;
+}
+.head-pay {
+  margin-top: 5%;
+  font-size: 5em;
+}
+.btn-paytype {
+  margin: 3%;
+  font-size: 3em;
+  background: url("./images/pay_btn.png");
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 90px;
+  color: rgb(255, 255, 255);
+  border: none;
+  overflow: hidden;
+  outline: none;
+}
+.btn-success2 {
+  margin: 5%;
+  font-size: 2em;
+  background: url("./images/next.png");
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 80px;
+  color: rgb(255, 255, 255);
+  border: none;
+  overflow: hidden;
+  outline: none;
+}

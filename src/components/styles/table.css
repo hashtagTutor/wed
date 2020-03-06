@@ -1,0 +1,40 @@
+.border-table {
+  width: 90px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 3%;
+}
+.bg2 {
+  background-color: rgb(167, 208, 230);
+  height: 100%;
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+.card-table {
+  padding: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.th {
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.ok-time {
+  margin-top: 3%;
+  font-size: 3em;
+  background: url("./images/next.png");
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 80px;
+  color: rgb(255, 255, 255);
+  border: none;
+  overflow: hidden;
+  outline: none;
+}
+.selecttime {
+  margin-top: 5px;
+}

@@ -1,0 +1,29 @@
+.sn {
+  font-size: 4em;
+}
+.cp {
+  padding: 5%;
+}
+.dt {
+  font-size: 3em;
+  color: rgb(82, 78, 78);
+  width: 100%;
+  height: 250px;
+}
+.cl {
+  font-size: 3em;
+  color: rgb(82, 78, 78);
+  color: teal;
+}
+.buy {
+  font-size: xx-large;
+  background-image: url(./images/buy-btn.png);
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 70px;
+  color: rgb(255, 255, 255);
+  border: none;
+  overflow: hidden;
+  outline: none;
+}

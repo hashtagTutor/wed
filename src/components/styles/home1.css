@@ -1,0 +1,53 @@
+.background {
+  background-color: rgb(167, 208, 230);
+  height: 100%;
+  padding-top: 6%;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.test_imageH1 {
+  margin-top: 10%;
+  width: 100%;
+  height: 100%;
+}
+.set_imageH1 {
+  text-align: center;
+}
+.set_imageH2 {
+  text-align: center;
+  margin-left: 150%;
+  margin-top: 100%;
+}
+.set_text_Htutor {
+  font-size: 1200%;
+  color: rgb(248, 109, 103);
+  text-shadow: 2px 2px 3px rgb(44, 43, 44);
+  text-align: end;
+}
+.set_text {
+  font-size: 300%;
+  color: rgb(63, 60, 60);
+  text-align: end;
+}
+.facebookicon {
+  margin-top: 10%;
+  width: 75%;
+  height: 85%;
+}
+.browsericon {
+  margin-top: 10%;
+  width: 75%;
+  height: 75%;
+}
+.lineicon {
+  margin-top: 10%;
+  width: 90%;
+  height: 90%;
+}
+.set_button {
+  padding-top: 1.5%;
+}
+.container-btn {
+  margin-top: 1%;
+  padding-bottom: 3%;
+}

@@ -1,0 +1,38 @@
+.root2 {
+  height: 100%;
+}
+.img-book {
+  background-image: url(./images/book.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  margin-bottom: 5%;
+}
+.why {
+  font-size: 400%;
+  color: rgb(32, 45, 92);
+  text-shadow: 2px 2px 3px rgb(44, 43, 44);
+  text-align: center;
+}
+.HT {
+  font-size: 270%;
+  color: rgb(32, 45, 92);
+  text-shadow: 2px 2px 3px rgb(44, 43, 44);
+  text-align: center;
+  margin-left: 7%;
+}
+.HT2 {
+  font-size: 270%;
+  color: red;
+  text-shadow: 2px 2px 3px rgb(44, 43, 44);
+  text-align: center;
+}
+.text-detail {
+  font-size: 170%;
+  color: rgb(32, 45, 92);
+  text-align: center;
+  margin-right: 5%;
+}
+.padding {
+  padding: 5%;
+}
