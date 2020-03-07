@@ -62,6 +62,11 @@ class Login extends React.Component {
       }
     });
   }
+  onclickRejester() {
+    this.props.history.push({
+      pathname: "/register"
+    });
+  }
   onChangeID(e) {
     this.setState({ id: e.target.value });
   }
@@ -113,7 +118,10 @@ class Login extends React.Component {
               </Button>
               <Grid container justify="center">
                 <Grid item className="register">
-                  <Link href="/register" variant="body2">
+                  <Link
+                    onClick={this.onclickRejester.bind(this)}
+                    variant="body2"
+                  >
                     สมัครสมาชิก
                   </Link>
                 </Grid>
