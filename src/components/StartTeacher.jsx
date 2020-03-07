@@ -823,7 +823,7 @@ class StartTeacher extends React.Component {
                           border={1}
                           className="border-table2"
                           style={{
-                            backgroundColor: this.state.tuecl[9]
+                            backgroundColor: this.state.wedcl[9]
                           }}
                         ></Box>
                       </Grid>
@@ -836,7 +836,7 @@ class StartTeacher extends React.Component {
                           border={1}
                           className="border-table2"
                           style={{
-                            backgroundColor: this.state.tuecl[10]
+                            backgroundColor: this.state.wedcl[10]
                           }}
                         ></Box>
                       </Grid>

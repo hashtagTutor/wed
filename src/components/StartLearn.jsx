@@ -120,7 +120,6 @@ class StartLearn extends React.Component {
         "white"
       ]
     };
-    console.log(this.state.data.data[0].time.mon);
     for (var day in this.state.data.data[0].time.mon) {
       this.state.mon[day] = this.state.data.data[0].time.mon[day];
       if (this.state.data.data[0].time.mon[day] === 0) {
@@ -702,7 +701,7 @@ class StartLearn extends React.Component {
                           border={1}
                           className="border-table2"
                           style={{
-                            backgroundColor: this.state.tuecl[9]
+                            backgroundColor: this.state.wedcl[9]
                           }}
                         ></Box>
                       </Grid>
@@ -715,7 +714,7 @@ class StartLearn extends React.Component {
                           border={1}
                           className="border-table2"
                           style={{
-                            backgroundColor: this.state.tuecl[10]
+                            backgroundColor: this.state.wedcl[10]
                           }}
                         ></Box>
                       </Grid>

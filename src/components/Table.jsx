@@ -148,7 +148,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.mon[day] === 1) {
           this.state.moncl[day] = "blue";
         } else if (this.state.course_data.time.mon[day] === 2) {
-          this.state.moncl[day] = "green";
+          this.state.moncl[day] = "red";
         }
         this.setState({ mon: this.state.mon, moncl: this.state.moncl });
       } // tueday
@@ -159,7 +159,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.tue[day] === 1) {
           this.state.tuecl[day] = "blue";
         } else if (this.state.course_data.time.tue[day] === 2) {
-          this.state.tuecl[day] = "green";
+          this.state.tuecl[day] = "red";
         }
         this.setState({ tue: this.state.tue, tuecl: this.state.tuecl });
       } // wednesday
@@ -170,7 +170,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.wed[day] === 1) {
           this.state.wedcl[day] = "blue";
         } else if (this.state.course_data.time.wed[day] === 2) {
-          this.state.wedcl[day] = "green";
+          this.state.wedcl[day] = "red";
         }
         this.setState({ wed: this.state.wed, wedcl: this.state.wedcl });
       } // thureday
@@ -181,7 +181,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.thu[day] === 1) {
           this.state.thucl[day] = "blue";
         } else if (this.state.course_data.time.thu[day] === 2) {
-          this.state.thucl[day] = "green";
+          this.state.thucl[day] = "red";
         }
         this.setState({ thu: this.state.thu, thucl: this.state.thucl });
       } // friday
@@ -192,7 +192,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.fri[day] === 1) {
           this.state.fricl[day] = "blue";
         } else if (this.state.course_data.time.fri[day] === 2) {
-          this.state.fricl[day] = "green";
+          this.state.fricl[day] = "red";
         }
         this.setState({ fri: this.state.fri, fricl: this.state.fricl });
       } // saturday
@@ -203,7 +203,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.sat[day] === 1) {
           this.state.satcl[day] = "blue";
         } else if (this.state.course_data.time.sat[day] === 2) {
-          this.state.satcl[day] = "green";
+          this.state.satcl[day] = "red";
         }
         this.setState({ sat: this.state.sat, satcl: this.state.satcl });
       } // sunday
@@ -214,7 +214,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.sun[day] === 1) {
           this.state.suncl[day] = "blue";
         } else if (this.state.course_data.time.sun[day] === 2) {
-          this.state.suncl[day] = "green";
+          this.state.suncl[day] = "red";
         }
         this.setState({ sun: this.state.sun, suncl: this.state.suncl });
       }
@@ -235,7 +235,7 @@ class Table extends React.Component {
       this.setState({ mon: this.state.mon, moncl: this.state.moncl });
     } else if (this.state.mon[index] === 1) {
       this.state.mon[index] = 2;
-      this.state.moncl[index] = "red";
+      this.state.moncl[index] = "green";
       this.setState({ mon: this.state.mon, moncl: this.state.moncl });
     }
   }
@@ -246,7 +246,7 @@ class Table extends React.Component {
       this.setState({ tue: this.state.tue, tuecl: this.state.tuecl });
     } else if (this.state.tue[index] === 1) {
       this.state.tue[index] = 2;
-      this.state.tuecl[index] = "red";
+      this.state.tuecl[index] = "green";
       this.setState({ tue: this.state.tue, tuecl: this.state.tuecl });
     }
   }
@@ -257,7 +257,7 @@ class Table extends React.Component {
       this.setState({ wed: this.state.wed, wedcl: this.state.wedcl });
     } else if (this.state.wed[index] === 1) {
       this.state.wed[index] = 2;
-      this.state.wedcl[index] = "red";
+      this.state.wedcl[index] = "green";
       this.setState({ wed: this.state.wed, wedcl: this.state.wedcl });
     }
   }
@@ -268,7 +268,7 @@ class Table extends React.Component {
       this.setState({ thu: this.state.thu, thucl: this.state.thucl });
     } else if (this.state.thu[index] === 1) {
       this.state.thu[index] = 2;
-      this.state.thucl[index] = "red";
+      this.state.thucl[index] = "green";
       this.setState({ thu: this.state.thu, thucl: this.state.thucl });
     }
   }
@@ -279,7 +279,7 @@ class Table extends React.Component {
       this.setState({ fri: this.state.fri, fricl: this.state.fricl });
     } else if (this.state.fri[index] === 1) {
       this.state.fri[index] = 2;
-      this.state.fricl[index] = "red";
+      this.state.fricl[index] = "green";
       this.setState({ fri: this.state.fri, fricl: this.state.fricl });
     }
   }
@@ -290,7 +290,7 @@ class Table extends React.Component {
       this.setState({ sat: this.state.sat, satcl: this.state.satcl });
     } else if (this.state.sat[index] === 1) {
       this.state.sat[index] = 2;
-      this.state.satcl[index] = "red";
+      this.state.satcl[index] = "green";
       this.setState({ sat: this.state.sat, satcl: this.state.satcl });
     }
   }
@@ -301,7 +301,7 @@ class Table extends React.Component {
       this.setState({ sun: this.state.sun, suncl: this.state.suncl });
     } else if (this.state.sun[index] === 1) {
       this.state.sun[index] = 2;
-      this.state.suncl[index] = "red";
+      this.state.suncl[index] = "green";
       this.setState({ sun: this.state.sun, suncl: this.state.suncl });
     }
   }
@@ -321,7 +321,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.mon[day] === 1) {
           this.state.moncl[day] = "blue";
         } else if (this.state.course_data.time.mon[day] === 2) {
-          this.state.moncl[day] = "green";
+          this.state.moncl[day] = "red";
         }
       } // tueday
       for (var day in this.state.course_data.time.tue) {
@@ -331,7 +331,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.tue[day] === 1) {
           this.state.tuecl[day] = "blue";
         } else if (this.state.course_data.time.tue[day] === 2) {
-          this.state.tuecl[day] = "green";
+          this.state.tuecl[day] = "red";
         }
       } // wednesday
       for (var day in this.state.course_data.time.wed) {
@@ -341,7 +341,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.wed[day] === 1) {
           this.state.wedcl[day] = "blue";
         } else if (this.state.course_data.time.wed[day] === 2) {
-          this.state.wedcl[day] = "green";
+          this.state.wedcl[day] = "red";
         }
       } // thureday
       for (var day in this.state.course_data.time.thu) {
@@ -351,7 +351,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.thu[day] === 1) {
           this.state.thucl[day] = "blue";
         } else if (this.state.course_data.time.thu[day] === 2) {
-          this.state.thucl[day] = "green";
+          this.state.thucl[day] = "red";
         }
       } // friday
       for (var day in this.state.course_data.time.fri) {
@@ -361,7 +361,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.fri[day] === 1) {
           this.state.fricl[day] = "blue";
         } else if (this.state.course_data.time.fri[day] === 1) {
-          this.state.fricl[day] = "green";
+          this.state.fricl[day] = "red";
         }
       } // saturday
       for (var day in this.state.course_data.time.sat) {
@@ -371,7 +371,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.sat[day] === 1) {
           this.state.satcl[day] = "blue";
         } else if (this.state.course_data.time.sat[day] === 1) {
-          this.state.satcl[day] = "green";
+          this.state.satcl[day] = "red";
         }
       } // sunday
       for (var day in this.state.course_data.time.sun) {
@@ -381,7 +381,7 @@ class Table extends React.Component {
         } else if (this.state.course_data.time.sun[day] === 1) {
           this.state.suncl[day] = "blue";
         } else if (this.state.course_data.time.sun[day] === 1) {
-          this.state.suncl[day] = "green";
+          this.state.suncl[day] = "red";
         }
       }
     });
